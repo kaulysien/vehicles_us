@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Ler os dados do arquivo CSV em um DataFrame
-car_data = pd.read_csv('vehicles.csv')
+car_data = pd.read_csv('https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/Data_NEW_4_sprint/vehicles.csv')
 
 # Adicionar um cabeçalho ao aplicativo Streamlit
 st.header('Exploração de Dados de Vendas de Carros')
